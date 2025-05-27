@@ -46,7 +46,7 @@ RandoStore is a modern, full-stack e-commerce platform designed to showcase a se
 - **REST API (`/items`)**: Provides endpoints for fetching, adding, updating, and deleting product items.
 - **Static File Hosting**: Serves static assets, including images and the built frontend application.
 - **Image Upload Handling**: Processes image uploads via `multer`, saving them to the `/static/img/` directory and associating them with product data.
-- **Image Deletion**: Automatically deletes associated image files when an item is removed from the database.
+- **Image Deletion**: Automatically deletes associated image files when an item is removed from the Items.
 - **Error Handling**: Robust error handling for API requests and file operations.
 
 ## 🔄 Application Flow
@@ -158,7 +158,6 @@ ProductBox-Frontend-Challenge/
 - **Admin Dashboard**: Create an admin interface for managing products, orders, and users.
 - **Advanced Search & Filtering**: Add more sophisticated search capabilities, including category filtering and price range sliders.
 - **Product Details Page**: A dedicated page for each product with more detailed information and multiple images.
-- **Testing**: Expand test coverage to include end-to-end (E2E) tests and more comprehensive unit/integration tests for both frontend and backend.
 
 ## 📷 Screenshots
 
